@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,">
+    <title>React App</title>
+    <!--导入阿里云上的字体图标：不能在JS中基于import导入-->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_528226_1jsbl7286t7qfr.css">
+</head>
+<body>
+<!--我们期望动态计算,让页面整体按照比例缩放的这段程序，在css加载完成后就触发执行，此时我们需要手动的在模版中加载js，这段js不会被webpack的打包编译-->
+<script>
+    function computed() {
+        var oHTML = document.documentElement,
+            winW = oHTML.clientWidth,
+            desW = 640;
+        if (winW >= desW) {
+            oHTML.style.fontSize = '100px';
+            return;
+        }
+        oHTML.style.fontSize = winW / desW * 100 + 'px';
+    }
+    computed();
+    window.addEventListener('resize', computed, false);
+</script>
+<div id="root"></div>
+
+</body>
+</html>

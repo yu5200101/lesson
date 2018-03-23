@@ -1,0 +1,63 @@
+.headerBox {
+  @H: 1.12rem;
+  @BG: #2A2A2A;
+  position: relative;
+  height: @H;
+  background: @BG;
+  .con {
+    height: @H;
+    overflow: hidden;
+    .logo {
+      float: left;
+      margin-left: .16rem;
+      margin-top: unit((unit(@H,rem)-.62)/2, rem);
+      width: 2.1rem;
+      height: .62rem;
+      background: url("../common/images/logo.png") no-repeat;
+      background-size: 100% 100%;
+      .link {
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 0;
+      }
+    }
+    .menu {
+      float: right;
+      width: .46rem;
+      height: .32rem;
+      margin-right: .16rem;
+      margin-top: unit((unit(@H,rem)-.32)/2, rem);
+      color: #FFFFFF;
+    }
+  }
+  .menuNav {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: @H;
+    z-index: 999;
+    box-sizing: border-box;
+    background: @BG;
+    padding: 0 .56rem;
+    width: 200%;
+    /*解决动画*/
+
+    /*display: none;
+    opacity: 0;
+    transition: .3s;*/
+
+    /*解决一像素问题*/
+
+    transform-origin: left top 0;
+    transform: scale(0.5);
+    li {
+    line-height: 1.8rem;
+    text-align: center;
+    color: #FFF;
+    font-size: .56rem;
+    border-top: .01rem solid #464646;
+  }
+  }
+
+}

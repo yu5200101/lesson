@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "vue框架开发课程",
+    "pic": "http://img.zhufengpeixun.cn/vueposters.png",
+    "date": "2018-03-22",
+    "address": "前端培训",
+    "time": "1小时",
+    "des": "",
+    "price": 3000,
+    "type": "vue"
+  },
+  {
+    "id": 2,
+    "name": "vue框架开发课程",
+    "pic": "http://img.zhufengpeixun.cn/vueposters.png",
+    "date": "2018-03-22",
+    "address": "前端培训",
+    "time": "1小时",
+    "des": "",
+    "price": 3000,
+    "type": "vue"
+  },
+  {
+    "id": 3,
+    "name": "vue框架开发课程",
+    "pic": "http://img.zhufengpeixun.cn/vueposters.png",
+    "date": "2018-03-22",
+    "address": "前端培训",
+    "time": "1小时",
+    "des": "",
+    "price": 3000,
+    "type": "vue"
+  },
+  {
+    "id": 4,
+    "name": "react框架开发课程",
+    "pic": "http://img.zhufengpeixun.cn/reactposter.png",
+    "date": "2018-03-22",
+    "address": "前端培训",
+    "time": "1小时",
+    "des": "",
+    "price": 3000,
+    "type": "react"
+  },
+  {
+    "id": 5,
+    "name": "react框架开发课程",
+    "pic": "http://img.zhufengpeixun.cn/reactposter.png",
+    "date": "2018-03-22",
+    "address": "前端培训",
+    "time": "1小时",
+    "des": "",
+    "price": 3000,
+    "type": "react"
+  },
+  {
+    "id": 6,
+    "name": "react框架开发课程",
+    "pic": "http://img.zhufengpeixun.cn/reactposter.png",
+    "date": "2018-03-22",
+    "address": "前端培训",
+    "time": "1小时",
+    "des": "",
+    "price": 3000,
+    "type": "react"
+  },
+  {
+    "id": 7,
+    "name": "微信小程序",
+    "pic": "http://img.zhufengpeixun.cn/xiaochengxuposter.png",
+    "date": "2018-03-22",
+    "address": "前端培训",
+    "time": "1小时",
+    "des": "",
+    "price": 3000,
+    "type": "node"
+  }
+]
